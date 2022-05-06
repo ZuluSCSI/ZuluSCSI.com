@@ -1,0 +1,85 @@
+# Build settings
+# theme: jekyll-theme-minimal
+# theme: beautiful-jekyll
+# remote_theme: pages-themes/time-machine@v0.2.0
+# remote_theme: pages-themes/leap-day@v0.2.0
+
+title: ZuluSCSI - A hardware SCSI HDD & CD-ROM emulator
+# description: ZuluSCSI is an Open Source SCSI HDD & CD-ROM emulator, based on BlueSCSI and SCSI2SD V6 SCSI command handling code
+author: Rabbit Hole Computing
+
+navbar-links:
+  About ZuluSCSI: "aboutzulu"
+  Where to Buy: "wheretobuy"
+  Resources:
+    - ZuluSCSI Firmware: "https://github.com/ZuluSCSI/ZuluSCSI-firmware"
+
+
+# --- Logo --- #
+
+# Image to show in the navigation bar - works best with a square image
+# Remove this parameter if you don't want an image in the navbar
+#avatar: "/ZuluSCSI-1280x598-logo.png"
+
+# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
+#round-avatar: false
+
+# If you want to have an image logo in the top-left corner instead of having the title of the website,
+# then specify the following parameter
+title-img: "/ZuluSCSI-1280x598-logo.png"
+
+# Analytics
+gtag: "G-PDTWTJ35PP"
+google_analytics: G-PDTWTJ35PP
+
+# Social Sharing
+social-network-links:
+#  email: "someone@example.com"
+  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  facebook: ZuluSCSI
+  github: ZuluSCSI
+  twitter: ZuluSCSI
+  youtube: c/ZuluSCSI
+#  patreon: ZuluSCSI
+
+  # --- You don't need to touch anything below here (but you can if you want) --- #
+
+# Output options (more information on Jekyll's site)
+timezone: "America/Los_Angeles"
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+
+kramdown:
+  input: GFM
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # any file that's not a post will be a "page" layout by default
+    values:
+      layout: "page"
+
+# Exclude these files from production site
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
+  - docs/
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
