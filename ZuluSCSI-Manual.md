@@ -1,4 +1,4 @@
-# ZuluSCSI
+# ZuluSCSI Manual
 
 ## Table of contents
 
