@@ -12,7 +12,9 @@ navbar-links:
   About ZuluSCSI: "aboutzulu"
   Where to Buy: "wheretobuy"
   Resources:
+    - ZuluSCSI Manual: "/ZuluSCSI-Manual"
     - ZuluSCSI Firmware: "https://github.com/ZuluSCSI/ZuluSCSI-firmware"
+    
 
 
 # --- Logo --- #
