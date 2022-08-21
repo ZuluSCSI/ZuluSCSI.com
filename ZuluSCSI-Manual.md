@@ -39,7 +39,7 @@ In respones to ongoing global electronics component shortages, ZuluSCSI developm
 
 | Device version             | Description                                                  |
 | :------------------------- | :----------------------------------------------------------- |
-| ZuluSCSI v1.0              | A compact version of the original ZuluSCSI with a 50 pin internal SCSI connector, a floppy-style Berg power connector, and hardware termination. Using a micro SD card for storage, it can be configured to emulate up to seven\* separate SCSI devices. |
+| ZuluSCSI v1.0              | A compact version of the original ZuluSCSI with a 50 pin internal SCSI connector, a floppy-style Berg power connector, and hardware termination. Using a micro SD card for storage, it can be configured to emulate up to seven separate SCSI devices. |
 | ZuluSCSI v1.1              | Similar to v1.0 with software configurable termination and a full sized SD card slot. |
 | ZuluSCSI Mini              | Has a compact form factor, a plastic case, a DB25 pin external SCSI connector, permanently enabled termination and uses a micro SD card for storage. It can be configured to emulate up to seven separate SCSI devices. |
 | ZuluSCSI PowerBook Edition | A variation of the ZuluSCSI Mini for Apple Macintosh PowerBook laptops. It has a 50 pin internal connector, fixed, permanently enabled SCSI termination, and uses a microSD card for storage. It can be configured to emulate up to seven separate SCSI devices. |
