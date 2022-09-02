@@ -14,7 +14,7 @@ ZuluSCSI is a SCSI computer storage emulation platform, which speaks both SCSI-1
 * Designed to be powered via SCSI termination power, when provided by the host
 * Optional DB25 pin header for direct installation of an external SCSI connector, in addition to the Single-Ended 50 pin IDC connector
 * Identical dimensions and mounting holes as that of SCSI2SD V5.1, V5.2, and V6, making it compatible with many existing SCSI2SD-specific mounting solutions
-* 74LVTH125 SCSI bus transceivers, as used in SCSI2SD V5 and SCSI2SD V6 Rev F
+* SCSI bus transceivers, as used in SCSI2SD V5 and SCSI2SD V6 Rev F
 
 #### Firmware structure
 
