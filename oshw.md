@@ -1,4 +1,4 @@
-# ZuluSCSI™ Open Source Hardware
+# ZuluSCSI Open Source Hardware
 
 <img src="assets/img/ZuluSCSI-V1.0-OSHW.jpg" alt="ZuluSCSI V1.0 OSHW PCB" width="733">
 
