@@ -1,7 +1,7 @@
 <img src="assets/img/ZuluSCSI-V1.1-Rev2022d-TopDown-FullSize.jpg" alt="ZuluSCSI V1.1 PCB" width="733" height="770">
 
 
-ZuluSCSI is a SCSI computer storage emulation platform, which speaks both SCSI-1 and SCSI-2. It uses file-based SCSI HDD & CD-ROM images, similar to RaSCSI and BlueSCSI. It represents a fusion of firmware and concepts from both SCSI2SD V6 and BlueSCSI. Hard drive and CD-ROM drive images are stored on a standard FAT32 or exFAT-formatted SD card.
+ZuluSCSI™ is a SCSI computer storage emulation platform, which speaks both SCSI-1 and SCSI-2. It uses file-based SCSI HDD & CD-ROM images, similar to RaSCSI and BlueSCSI. It represents a fusion of firmware and concepts from both SCSI2SD V6 and BlueSCSI. Hard drive and CD-ROM drive images are stored on a standard FAT32 or exFAT-formatted SD card.
 
 ## Features
 
@@ -34,10 +34,10 @@ ZuluSCSI is a SCSI computer storage emulation platform, which speaks both SCSI-1
 
 #### Firmware origins
 
-The ZuluSCSI firmware is derived from two sources, both under GPL 3 license:
+The ZuluSCSI™ firmware is derived from two sources, both under GPL 3 license:
 
 * [SCSI2SD V6](http://www.codesrc.com/gitweb/index.cgi?p=SCSI2SD-V6.git;a=summary)
 * [BlueSCSI](https://github.com/erichelgeson/BlueSCSI), which in turn is derived from [ArdSCSIno-stm32](https://github.com/ztto/ArdSCSino-stm32).
 
 #### Hardware 
-The ZuluSCSI V1.0 and V1.1 hardware designs are derived from the SCSI2SD V5.1 hardware design.
+The ZuluSCSI™ V1.0 and V1.1 hardware designs are derived from the SCSI2SD V5.1 hardware design.
