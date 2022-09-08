@@ -102,7 +102,9 @@ No LED activity: verify the 'BOOT' configuration switch is OFF.
 
 ## <a id="using-the-ZuluSCSI"></a> Using the ZuluSCSI
 
+## <a id="SD-card-requirements"></a> SD card requirements
 
+The ZuluSCSI firmware requires a MBR/DOS-partitioned SD card, and at least one FAT32 or exFAT-formatted SD partition, which must be labeled SDHC or SDXC. Older SD cards manufactured prior to around 2008, generally ~4GB and smaller, may not be detected by the SDIO interface of the microcontroller. This is a hardware/silicon limitation. ZuluSCSI has no upper limit on the size of SD cards it is compatible with, and is known to work with large 256GB and 400GB SD cards which are currently commercially available. SD cards partitioned with GPT (GUID Partition Map) can not be read by ZuluSCSI, and the ZuluSCSI will not detect such SD cards, resulting in the LED flashing five times.
 
 ### <a id="using-quickstart"></a> Quickstart guide
 
