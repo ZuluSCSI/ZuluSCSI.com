@@ -11,6 +11,7 @@
 
 * [Using ZuluSCSI](#using-the-ZuluSCSI)
 
+  * SD card requirements (#SD-card-requirements)
   * [Quickstart Guide](#using-quickstart)
   * [Understanding SCSI](#using-scsi) 
   * [Installation](#using-installation)
@@ -106,11 +107,11 @@ No LED activity: verify the 'BOOT' configuration switch is OFF.
 
 The ZuluSCSI firmware requires a MBR/DOS-partitioned SD card, and at least one FAT32 or exFAT-formatted SD partition, which must be labeled SDHC or SDXC. Older SD cards manufactured prior to around 2008, generally ~4GB and smaller, may not be detected by the SDIO interface of the microcontroller. This is a hardware/silicon limitation. ZuluSCSI has no upper limit on the size of SD cards it is compatible with, and is known to work with large 256GB and 400GB SD cards which are currently commercially available. SD cards partitioned with GPT (GUID Partition Map) can not be read by ZuluSCSI, and the ZuluSCSI will not detect such SD cards, resulting in the LED flashing five times.
 
-### <a id="using-quickstart"></a> Quickstart guide
+### <a id="using-start"></a> Quickstart guide
 
 These steps get your ZuluSCSI up and running quickly, emulatiing a single SCSI hard drive.
 
-Copy at a single, valid disk image file to the root directory of a FAT32 or exFAT-formatted SD card of any capacity. Name the image "HDx.img" or "HDx.hda", where 'x' is a unique SCSI ID, between 0 and 6 (ID 7 is often the controller's ID).
+Copy at a single, valid disk image file to the root directory of an MBR/DOS-partitioned FAT32 or exFAT-formatted SD card of any capacity. Name the image "HDx.img" or "HDx.hda", where 'x' is a unique SCSI ID, between 0 and 6 (ID 7 is often the controller's ID).
 
 Image files named "CDx.iso" or "CDx.img" will automatically be configured by the ZuluSCSI firmware as a removable SCSI CD-ROM drive, with a standard 2048-byte sector size.  
 
