@@ -33,7 +33,7 @@ ZuluSCSI is a SCSI hard drive emulator. Physical disk devices are represented by
 
 ### <a id="introduction-history"></a> ZuluSCSI History & Lineage
 
-In respones to ongoing global electronics component shortages, ZuluSCSI development began in November, 2021 by Rabbit Hole Computing. ZuluSCSI is different from other SD card SCSI emulation devices and projects. Unlike with SCSI2SD, no configuration utility is used or necessary. All necessary ZuluSCSI documentation is here.
+In response to ongoing global electronics component shortages, ZuluSCSI development began in November, 2021 by Rabbit Hole Computing. ZuluSCSI is different from other SD card SCSI emulation devices and projects. Unlike with SCSI2SD, no configuration utility is used or necessary. All necessary ZuluSCSI documentation is here.
 
 ### <a id="introduction-models"></a> ZuluSCSI Models
 
