@@ -11,7 +11,7 @@
 
 * [Using ZuluSCSI](#using-the-ZuluSCSI)
 
-  * SD card requirements (#SD-card-requirements)
+  * [SD card requirements](#SD-card-requirements)
   * [Quickstart Guide](#using-quickstart)
   * [Understanding SCSI](#using-scsi) 
   * [Installation](#using-installation)
