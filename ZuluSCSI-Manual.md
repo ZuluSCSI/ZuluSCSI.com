@@ -53,7 +53,7 @@ In response to ongoing global electronics component shortages, ZuluSCSI developm
 | Software configurable termination                            | Yes       | Yes       | Always On | Always On      |
 | Multiple drives on a single card, <br>each with a unique SCSI ID | Up to 7   | Up to 7   | Up to 7   | Up to 7        |
 | Low power consumption, can operate solely on power from the<br> SCSI connector in most instances | Yes       | Yes       | Yes       | Yes            |
-| Compatible with a wide range of SCSI enabled computers and device | Yes       | Yes       | Yes       | Yes            |
+| Compatible with a wide range of SCSI enabled computers and devices | Yes       | Yes       | Yes       | Yes            |
 | SD Card Type                                                 | Full Size | Full Size | MicroSD   | MicroSD        |
 
 ## <a id="configuration"></a> ZuluSCSI Configuration
@@ -157,6 +157,7 @@ The ZuluSCSI allows the use of modern SD storage media in place of a traditional
 
 For example, vintage Macintosh computers used HFS or Hierarchical File System for mass storage devices. This file system was used from 1985 until it was replaced by HFS+ (or HFS Extended) in 1998, with the introduction of Mac OS 8.1. If you use a ZuluSCSI on a vintage Mac and format the SD card with HFS, you may not be able to access the card's contents using a modern Macintosh. For more information, see [Limitations](#limitations).
 
+<!--
 ### <a id="using-advanced"></a> Advanced options
 
 [Not yet written]
