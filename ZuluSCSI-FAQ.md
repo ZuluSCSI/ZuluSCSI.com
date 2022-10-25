@@ -1,4 +1,4 @@
-*ZuluSCSI FAQ*
+# ZuluSCSI FAQ
 
 >What is the difference between ZuluSCSI V1.1 and ZuluSCSI 2040?
 
