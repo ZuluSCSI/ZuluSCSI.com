@@ -40,21 +40,19 @@ In response to ongoing global electronics component shortages, ZuluSCSI developm
 
 | Device version             | Description                                                  |
 | :------------------------- | :----------------------------------------------------------- |
-| ZuluSCSI v1.0              | A compact version of the original ZuluSCSI with a 50 pin internal SCSI connector, a floppy-style Berg power connector, and hardware termination. Using a micro SD card for storage, it can be configured to emulate up to seven separate SCSI devices. |
-| ZuluSCSI v1.1              | Similar to v1.0 with software configurable termination and a full sized SD card slot. |
-| ZuluSCSI Mini              | Has a compact form factor, a plastic case, a DB25 pin external SCSI connector, permanently enabled termination and uses a micro SD card for storage. It can be configured to emulate up to seven separate SCSI devices. |
-| ZuluSCSI PowerBook Edition | A variation of the ZuluSCSI Mini for Apple Macintosh PowerBook laptops. It has a 50 pin internal connector, fixed, permanently enabled SCSI termination, and uses a microSD card for storage. It can be configured to emulate up to seven separate SCSI devices. |
+| ZuluSCSI RP2040            | A full-sized ZuluSCSI with a 50 pin internal SCSI connector and switch-controlled termination. based on the RP2040 microcontroller. |
+| ZuluSCSI v1.1              | A full-sized ZuluSCSI with a 50 pin internal SCSI connector and switch-controlled termination |
+| ZuluSCSI Mini              | Has a compact form factor, a plastic case, a DB25 pin external SCSI connector, permanently enabled termination and uses a micro SD card for storage.  |
+| ZuluSCSI V1.1 2.5" Laptop/PowerBook | A variation of the ZuluSCSI Mini for Apple Macintosh PowerBook laptops. It has a 50 pin internal connector, fixed, permanently enabled SCSI termination, and uses a microSD card for storage. |
 
 ### <a id="introduction-features"></a> Features
 
-| Hardware Version/Edition                                     | V1.0      | V1.1      | V1.0 Mini | V1.0 PowerBook |
+| Hardware Version/Edition                                     | RP2040 |V1.0      | V1.1      | V1.1 PowerBook | V1.0 Mini & RP2040 Mini |
 | ------------------------------------------------------------ | --------- | --------- | --------- | -------------- |
-| Emulates a range of different devices, <br>including hard drives, CD-ROMs,<br>SCSI floppy, and removable media. | Yes       | Yes       | Yes       | Yes            |
-| Software configurable termination                            | Yes       | Yes       | Always On | Always On      |
-| Multiple drives on a single card, <br>each with a unique SCSI ID | Up to 7   | Up to 7   | Up to 7   | Up to 7        |
-| Low power consumption, can operate solely on power from the<br> SCSI connector in most instances | Yes       | Yes       | Yes       | Yes            |
-| Compatible with a wide range of SCSI enabled computers and devices | Yes       | Yes       | Yes       | Yes            |
-| SD Card Type                                                 | Full Size | Full Size | MicroSD   | MicroSD        |
+| DIP-switch configurable termination                          | Yes       | Yes       | Always On | Always On | Always On |
+| SD Card Type                                                 | Full Size | Full Size | Full Size | MicroSD   | MicroSD        |
+
+All ZuluSCSI devices are compatible with a wide range of SCSI enabled computers and devices, and are capable of emulating a range of different devices, including hard drives, CD-ROMs, SCSI floppy, and removable media. All models can operate solely on power from the SCSI connector in most instances, when SCSI termination power is provided. 
 
 ## <a id="configuration"></a> ZuluSCSI Configuration
 
@@ -76,7 +74,7 @@ When the update is complete, ZuluSCSI will delete the firmware file from the SD 
 
 ### <a id="dip-switches"></a> Configuration switch settings
 
-ZuluSCSI V1.0 and V1.1 include a four-position DIP switch. By default, TERM (termination) is on, and all others are off.
+ZuluSCSI RP2040 and V1.1 include a four-position DIP switch. By default, TERM (termination) is on, and all others are off.
 
 ### TERM
 
