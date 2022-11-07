@@ -17,13 +17,14 @@
   * [Installation](#using-installation)
   * [General Use](#using-general)
   * [Understanding File Systems](#using-formats)
+ <!--
   * [Advanced Options](#using-advanced)
   * [Transferring Data](#using-transferring)
 
 * [Limitations](#limitations)
 
   * [File Systems and Formatting](#limitations-formatting)
-
+-->
   
 
 ## <a id="introduction-to-ZuluSCSI"></a> Introduction to ZuluSCSI
