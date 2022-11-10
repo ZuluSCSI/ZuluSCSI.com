@@ -14,17 +14,6 @@ navbar-links:
   Resources:
     - ZuluSCSI Manual: "/ZuluSCSI-Manual"
     - ZuluSCSI Firmware: "https://github.com/ZuluSCSI/ZuluSCSI-firmware"
-    
-title: ZuluSCSI Manual Redirect 301
-redirect_to:
-  - http://zuluscsi.com/ZuluSCSI-Manual
-permalink: /manual/
-
-title: ZuluSCSI Manual Redirect 301
-redirect_to:
-  - http://zuluscsi.com/ZuluSCSI-FAQ
-permalink: /faq/
-
 
 # --- Logo --- #
 
@@ -96,3 +85,13 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
+  
+title: ZuluSCSI Manual Redirect 301
+redirect_to:
+  - http://zuluscsi.com/ZuluSCSI-Manual
+permalink: /manual
+
+title: ZuluSCSI Manual Redirect 301
+redirect_to:
+  - http://zuluscsi.com/ZuluSCSI-FAQ
+permalink: /faq
