@@ -41,7 +41,8 @@ In response to ongoing global electronics component shortages, ZuluSCSI developm
 
 | Hardware Version/Edition                                     | RP2040    |V1.0       | V1.1      | V1.1 PowerBook | V1.0 Mini & RP2040 Mini |
 | ------------------------------------------------------------ | --------- | --------- | --------- | -------------- |-------------------------|
-| DIP-switch configurable termination                          | Yes       | Yes       | Yes       | Yes            | Always On |
+| DIP-switch configurable termination                          | Yes       | Yes       | Yes       | Yes            | Always On      |
+| LED pin header footprint for optional external LED pin header | Yes       | Yes       | Yes       | Yes            | No             |
 | SD Card Type                                                 | Full Size | Full Size | Full Size | MicroSD        | MicroSD        |
 
 All ZuluSCSI devices are compatible with a wide range of SCSI enabled computers and devices, and are capable of emulating a range of different devices, including hard drives, CD-ROMs, SCSI floppy, and removable media. All models can operate solely on power from the SCSI connector in most instances, when SCSI termination power is provided. 
