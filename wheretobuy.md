@@ -10,5 +10,8 @@
 #### United Kingdom
 * [AmigaKit (Cardiff, UK)](https://amigakit.amiga.store/zuluscsi-adapter-p-91287.html?currency=EUR)
 
+#### Germany / European Union
+* [Studio Services](https://studio-services.de/produkt-kategorie/scsi-massenspeicher-und-zubehoer/)
+
 #### Australia
 * [Recap A Mac (Australia)](https://recapamac.com.au/product/zuluscsi)
