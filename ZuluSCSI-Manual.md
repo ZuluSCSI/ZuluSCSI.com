@@ -55,7 +55,7 @@ ZuluSCSI searches the SD card for files with a specific filename structure, for 
 
 ZuluSCSI searches for files named `HDn.img` or `HDn.hda`, where 'n' is a unique SCSI ID (0-7). Note: SCSI ID 7 is often reserved for the controller. Each file with a unique SCSI ID will be presented to the host controller as a SCSI drive.
 
-ZuluSCSI can be configured in more detail via an optional text file named zuluscsi.ini. The example file in this repository shows how to configure ZuluSCSI via the `zuluscsi.ini` file.
+ZuluSCSI can be configured in more detail via an optional text file named zuluscsi.ini. The [example file](https://github.com/ZuluSCSI/ZuluSCSI-firmware/blob/main/zuluscsi.ini) shows how to configure ZuluSCSI via the `zuluscsi.ini` file.
 
 At initialization, ZuluSCSI logs details and configured files to `zululog.txt`
 
