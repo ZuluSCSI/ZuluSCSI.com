@@ -22,10 +22,10 @@ ZuluSCSI™ is a SCSI computer storage emulation platform, which speaks both SCS
 * SCSI physical layer code is mostly custom, with some inspiration from BlueSCSI
 * Image file access is derived from BlueSCSI
 
-#### Major changes from BlueSCSI and SCSI2SD
+#### Major improvements from BlueSCSI and SCSI2SD
 
 * Separation of platform-specific functionality to separate directory to ease porting
-* Ported to the GigaDevice GD32F205 ARM Cortex processor
+* Ported to the RP2040 and GigaDevice GD32F205 ARM Cortex processors
 * Removal of Arduino core dependency
 * Buffered log functions
 * Simultaneous transfer between SD card and SCSI bus for improved performance
@@ -40,5 +40,5 @@ The ZuluSCSI™ firmware is derived from two sources, both under GPL 3 license:
 * [BlueSCSI](https://github.com/erichelgeson/BlueSCSI), which in turn is derived from [ArdSCSIno-stm32](https://github.com/ztto/ArdSCSino-stm32).
 
 #### Hardware 
-The ZuluSCSI™ V1.0 and V1.1 hardware designs are derived from the SCSI2SD V5.1 hardware design.
-The ZuluSCSI™ Mini hardware designs are derived from the SCSI2SD V5.5 hardware design.
+The ZuluSCSI™ RP2040, V1.0 and V1.1 hardware designs are derived from the SCSI2SD V5.1 hardware design.
+The ZuluSCSI™ RP2040 Mini hardware designs are derived from the SCSI2SD V5.5 hardware design.
