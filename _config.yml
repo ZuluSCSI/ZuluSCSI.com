@@ -86,12 +86,12 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   
-title: ZuluSCSI Manual Redirect 301
+title: ZuluSCSI Manual
 redirect_to:
   - http://zuluscsi.com/ZuluSCSI-Manual
 permalink: /manual
 
-title: ZuluSCSI Manual Redirect 301
+title: ZuluSCSI FAQ
 redirect_to:
   - http://zuluscsi.com/ZuluSCSI-FAQ
 permalink: /faq
