@@ -12,4 +12,4 @@ By the end of August, we got the read performance slightly above that of ZuluSCS
 
 It's important to point out that the SCSI controllers in most of the early Macintosh computers do not support synchronous SCSI, at the silicon level, and even the models that do mostly only support synchronous mode at 5 megabytes/sec, and not the faster 10 megabytes/second synchronous SCSI speed. In those cases, the bottleneck is the integrated SCSI controller in the Macintosh itself, not the ZuluSCSI.
 
-As of late October 2022, we're still working on improving write performance with ZuluSCSI RP2040, which is currently in the 2-3 megabyte/second range, depending on transfer size, and those improvements will be released when they're sufficiently tested and ready. There's no fixed timetable.
+Read performance with the ZuluSCSI RP2040 can exceed 9 megabytes per second, with read speeds of up to five megabyte per second.
