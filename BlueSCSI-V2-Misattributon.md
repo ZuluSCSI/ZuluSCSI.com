@@ -6,6 +6,4 @@ When I say 'credit', I do not mean my own credit. First, I mean the credit owed 
 
 Secondly, but by no means less, I mean the credit owed to an Australian by the name of Michael McMaster. Michael McMaster is the mind behind the SCSI2SD, one of the projects that ZuluSCSI is based on, and he is the giant whose shoulders we stand upon. He is not directly involved with ZuluSCSI, nor is he in my employ. But a large proportion of the ZuluSCSI code was originally written by him, including all the SCSI magic that makes it work fast and reliably. He has spent a decade of his life working on this code. Serious expertise and skill have gone into it, and he deserves to be recognized.
 
-Whether Mr. Helgeson intentionally effaced these people, or whether he honestly believes he has contributed more than they have, is irrelevant. He has not. His commits have been reshufflings and refactorings at best, and his putting himself at the head of the contributors file of BlueSCSI V2 is hard to read as anything other than an act of pure egotism at the expense of the calm, competent engineers who actually produced the code.
-
 Thank you for reading.
