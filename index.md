@@ -5,12 +5,14 @@ ZuluSCSI™ is a SCSI computer storage emulation platform, which speaks both SCS
 
 ## Features
 
+* [Open-source firmware](https://github.com/zuluscsi/zuluscsi-firmware), licensed under the GPLv3
 * Emulates up to 7 SCSI devices simultaneously, including CD-ROM, Magneto Optical, removable (SyQuest/Jaz-style), and SCSI floppy device types
-* Speaks both SCSI-1 and SCSI-2
+* Speaks both SCSI-1 and SCSI-2, including 10MB/sec Fast SCSI
+* Up to 9.1 megabytes/second read speeds, 6MB/sec write speeds (on ZuluSCSI RP2040-based boards)
 * SCSI Termination is DIP-switch controlled
 * Firmware upgrade simplicity; As easy as placing a file on the SD card
 * Highly configurable using a text-based ini file, ZuluSCSI.ini
-* External activity LED pin header for attaching remote LEDs.
+* External activity LED pin header for attaching remote activity LED
 * Designed to be powered via SCSI termination power, when provided by the host
 * Optional DB25 pin header for direct installation of an external SCSI connector, in addition to the Single-Ended 50 pin IDC connector
 * Identical dimensions and mounting holes as that of SCSI2SD V5.1, V5.2, and V6, making it compatible with many existing SCSI2SD-specific mounting solutions
