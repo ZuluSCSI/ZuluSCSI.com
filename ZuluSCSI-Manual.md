@@ -102,7 +102,7 @@ The ZuluSCSI firmware requires a MBR/DOS-partitioned SD card, and at least one F
 
 These steps get your ZuluSCSI up and running quickly, emulatiing a single SCSI hard drive.
 
-Copy at a single, valid disk image file to the root directory of an MBR/DOS-partitioned FAT32 or exFAT-formatted SD card of any capacity. Name the image "HDx.img" or "HDx.hda", where 'x' is a unique SCSI ID, between 0 and 6 (ID 7 is often the controller's ID).
+Create or copy a single (or up to six), valid disk image file to the root directory of an MBR/DOS-partitioned FAT32 or exFAT-formatted SD card of any capacity. Name the image "HDx.img" or "HDx.hda", where 'x' is a unique SCSI ID, between 0 and 6 (ID 7 is often the controller's ID).
 
 Image files named "CDx.iso" or "CDx.img" will automatically be configured by the ZuluSCSI firmware as a removable SCSI CD-ROM drive, with a standard 2048-byte sector size.  
 
