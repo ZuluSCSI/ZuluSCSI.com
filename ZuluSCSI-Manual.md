@@ -18,6 +18,15 @@
   * [General Use](#using-general)
   * [Understanding File Systems](#using-formats)
 
+* [Connectors](#connectors)
+
+  * [SD Card Slot](#connectors-sd-card-slot)
+  * [Internal SCSI Header](#connectors-internal-scsi-header)
+  * [External SCSI Port](#connectors-external-scsi-port)
+  * [Floppy (Berg) Connector](#connectors-floppy-berg-connector)
+  * [USB Port](#connectors-usb-port)
+  * [LED Header](#connectors-led-header)
+
 ## <a id="introduction-to-ZuluSCSI"></a> Introduction to ZuluSCSI
 
 ### <a id="introduction-overview"></a> Overview
@@ -147,6 +156,38 @@ When formatting mass storage devices, such as floppy discs and hard drives, it i
 The ZuluSCSI allows the use of modern SD storage media in place of a traditional mechanical SCSI drive. When you install a ZuluSCSI in a vintage computer, the computer does not know that it's operating with a modern, solid state drive. When formatting an SD card using a vintage computer, the card will be formatted _using the vintage file system._ In doing so, the SD card may no longer be accessible in modern computers, if the file system is no longer supported.
 
 For example, vintage Macintosh computers used HFS or Hierarchical File System for mass storage devices. This file system was used from 1985 until it was replaced by HFS+ (or HFS Extended) in 1998, with the introduction of Mac OS 8.1. If you use a ZuluSCSI on a vintage Mac and format the SD card with HFS, you may not be able to access the card's contents using a modern Macintosh. For more information, see [Limitations](#limitations).
+
+## <a id="connectors"></a> Connectors
+
+### <a id="connectors-sd-card-slot"></a> SD Card Slot
+
+The full-size version of ZuluSCSI has a full-size SD card slot. The compact, laptop, and mini versions of ZuluSCSI have MicroSD card slots. All versions support SD, SDHC, and SDXC cards.
+
+### <a id="connectors-internal-scsi-header"></a> Internal SCSI Header
+
+The full-size, compact, and laptop versions of ZuluSCSI have a 50-pin internal SCSI connector. The internal SCSI connector is typically connected by a ribbon cable to a corresponding pin header on the motherboard.
+
+### <a id="connectors-external-scsi-port"></a> External SCSI Port
+
+The mini version of ZuluSCSI has a DB-25 male external SCSI connector. This can be connected directly to a DB-25 female port, as found on the back of vintage Macs from the Macintosh Plus onward.
+
+The full-size version of ZuluSCSI has an unpopulated footprint for a DB-25 female connector. If soldered on, the ZuluSCSI can be connected to the external SCSI port of vintage Macs with a straight-through DB-25 cable.
+
+### <a id="connectors-floppy-berg-connector"></a> Floppy (Berg) Connector
+
+The full-size and compact versions of ZuluSCI have unpopulated footprints for a Floppy-style Berg connector. This can be used to supply +5V power to the ZuluSCSI if the host machine does not provide termination power. The +12V power line is ignored. It is safe (but unnecessary) to supply +5V power through this connector while the ZuluSCSI is receiving power from another source.
+
+### <a id="connectors-usb-port"></a> USB Port
+
+All versions of ZuluSCSI have a Micro-USB Type-B port. This can be used to supply +5V power to the ZuluSCSI if the host machine does not provide termination power. It is safe (but unnecessary) to supply +5V power through this connector while the ZuluSCSI is receiving power from another source.
+
+In addition, the USB port can be used as an alternate method to flash the ZuluSCSI with updated firmware. See the [firmware repository](https://github.com/ZuluSCSI/ZuluSCSI-firmware) for details.
+
+Other than power and firmware updates, no additional functionality is currently provided through the USB port. It would be technically feasible to implement support for USB Mass Storage, but the ZuluSCSI is limited to USB “Full Speed”, and most modern machines would be better served by a High Speed or Super Speed card reader.
+
+### <a id="connectors-led-header"></a> LED Header
+
+The full-size, compact, and laptop versions of ZuluSCSI have an unpopulated footprint for a pin header (J304). A LED can be connected to that header as an external activity LED. The cathode (negative) end of the LED (the shorter leg) should be connected to the position marked “C”.
 
 <!--
 ### <a id="using-advanced"></a> Advanced options
