@@ -85,11 +85,14 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
-  
-title: ZuluSCSI Manual
+
+permalink: /ZuluSCSI-Manual
 redirect_to:
   - https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/ZuluSCSI-Manual
+
 permalink: /manual
+redirect_to:
+  - https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/ZuluSCSI-Manual
 
 title: ZuluSCSI FAQ
 redirect_to:
