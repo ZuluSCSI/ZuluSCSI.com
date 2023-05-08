@@ -86,17 +86,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
-permalink: /ZuluSCSI-Manual
-redirect_to:
-  - https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/ZuluSCSI-Manual
-
-permalink: /manual
-redirect_to:
-  - https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/ZuluSCSI-Manual
-
-title: ZuluSCSI FAQ
-redirect_to:
-  - http://zuluscsi.com/ZuluSCSI-FAQ
-permalink: /faq
-
 Title: ZuluSCSI - a Solid-State SCSI HDD & CD-ROM emulator
