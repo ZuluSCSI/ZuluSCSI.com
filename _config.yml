@@ -88,7 +88,7 @@ plugins:
   
 title: ZuluSCSI Manual
 redirect_to:
-  - http://zuluscsi.com/ZuluSCSI-Manual
+  - https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/ZuluSCSI-Manual
 permalink: /manual
 
 title: ZuluSCSI FAQ
