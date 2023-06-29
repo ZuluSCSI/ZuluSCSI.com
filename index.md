@@ -1,4 +1,4 @@
-<img src="assets/img/ZuluSCSI_RP2040_Top-Rev2022d-web.jpg" alt="ZuluSCSI V1.1 PCB" width="733" height="770">
+<img src="assets/img/ZuluSCSI_RP2040_Rev2023a-1.5MB.jpg" alt="ZuluSCSI V1.1 PCB" width="733" height="770">
 
 
 ZuluSCSI™ is a SCSI computer storage emulation platform, which speaks both SCSI-1 and SCSI-2. It uses file-based SCSI HDD & CD-ROM images, similar to RaSCSI and BlueSCSI. It represents a fusion of firmware and concepts from both SCSI2SD V6 and BlueSCSI. Hard drive and CD-ROM drive images are stored on a standard FAT32 or exFAT-formatted SD card.
