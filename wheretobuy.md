@@ -14,4 +14,4 @@
 * [Studio Services](https://studio-services.de/produkt-kategorie/scsi-massenspeicher-und-zubehoer/)
 
 #### Australia
-* [Juicy Crumb Systems](https://juicycrumb.com/product/zuluscsi-rp2040/)
+* [Juicy Crumb Systems](https://juicycrumb.com/product-category/scsi/zuluscsi/)
