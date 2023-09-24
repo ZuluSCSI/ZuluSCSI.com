@@ -1,4 +1,4 @@
-# ZuluSCSI Open Source Hardware
+# ZuluSCSI Pico Open Source Hardware Design
 
 <img src="/assets/img/ZuluSCSI-Pico-OSHW-Rev2023c-render-top.png" alt="ZuluSCSI V1.0 OSHW PCB" width="400"> <img src="/assets/img/ZuluSCSI-Pico-OSHW-Rev2023c-render-bottom.png" alt="ZuluSCSI V1.0 OSHW PCB" width="400">
 
