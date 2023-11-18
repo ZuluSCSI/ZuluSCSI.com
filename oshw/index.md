@@ -1,6 +1,6 @@
 # ZuluSCSI Pico Open Source Hardware Design
 
-<img src="certification-mark-US002581-stacked.png">
+<img src="certification-mark-US002581-stacked.png" style="max-width: 100%; height: 200px;">
 
 **November 18th, 2023** - ZuluSCSI Pico OSHW Rev 2023d has been certified as <a href="https://certification.oshwa.org/us002581.html">Open Source hardware</a> by the Open Source Hardware Association.
 
