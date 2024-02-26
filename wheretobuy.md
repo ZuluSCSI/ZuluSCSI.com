@@ -9,7 +9,7 @@
 * [DECromancer.ca](https://decromancer.ca/scsi2sd/#zuluscsi)
 
 #### United Kingdom
-* [AmigaKit (Cardiff, UK)](https://amigakit.amiga.store/zuluscsi-adapter-p-91287.html?currency=EUR)
+* [AmigaKit (Cardiff, UK)](https://amigakit.amiga.store/rabbit-hole-computing-m-51.html?aksid=en61363vm3hhjfuu1lgs0vh5f3&currency=EUR&aksid=en61363vm3hhjfuu1lgs0vh5f3)
 
 #### Germany / European Union
 * [Studio Services](https://studio-services.de/produkt-kategorie/scsi-massenspeicher-und-zubehoer/)
