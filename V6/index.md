@@ -19,5 +19,5 @@ ZuluSCSI™ V6.4 is a SCSI computer storage emulation platform which is a descen
 
 #### Firmware origins
 
-The [ZuluSCSI™ V6.4 firmware](https://github.com/rabbitholecomputing.com/ZuluSCSI-V6-firmware) is derived from the original [SCSI2SD V6](http://www.codesrc.com/gitweb/index.cgi?p=SCSI2SD-V6.git;a=summary) firmware.
+The [ZuluSCSI™ V6.4 firmware](https://github.com/rabbitholecomputing/ZuluSCSI-V6-firmware) is derived from the original [SCSI2SD V6](http://www.codesrc.com/gitweb/index.cgi?p=SCSI2SD-V6.git;a=summary) firmware.
 
