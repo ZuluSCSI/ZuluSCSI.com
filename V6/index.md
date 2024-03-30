@@ -1,7 +1,7 @@
 <img src="/assets/img/ZuluSCSI_V6.4-Rev2024a.jpg" alt="ZuluSCSI V6.4 PCB" width="733" height="770">
 
 
-ZuluSCSI™ V6.4 is a SCSI computer storage emulation platform which is a descendent of SCSI2SD V6. Unlike ZuluSCSI V1 and ZuluSCSI RP2040, ZuluSCSI V6.4 uses a client-side configuration utility, ZuluSCI-V6-util, to configure SCSI devices, identical to that of SCSI2SD V6. 
+ZuluSCSI™ V6.4 is a SCSI computer storage emulation platform which is a descendent of SCSI2SD V6. Unlike ZuluSCSI V1 and ZuluSCSI RP2040, ZuluSCSI V6.4 uses a client-side configuration utility, [ZuluSCI-V6-util](https://zuluscsi.com/V6/zuluscsi-v6-util-1.0-windows.zip), to configure SCSI devices, identical to that of SCSI2SD V6. 
 
 ## Features
 
