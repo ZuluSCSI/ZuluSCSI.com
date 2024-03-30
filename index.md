@@ -8,7 +8,7 @@ ZuluSCSI™ is a SCSI computer storage emulation platform, which speaks both SCS
 * [Open-source firmware](https://github.com/zuluscsi/zuluscsi-firmware), licensed under the GPLv3
 * Emulates up to 7 SCSI devices simultaneously, including CD-ROM, Magneto Optical, removable (SyQuest/Jaz-style), and SCSI floppy device types
 * Speaks both SCSI-1 and SCSI-2, including 10MB/sec Fast SCSI
-* Up to 9.1 megabytes/second read speeds, 6MB/sec write speeds (on ZuluSCSI RP2040-based boards)
+* Up to 9.5 megabytes/second read speeds, 6MB/sec write speeds (on ZuluSCSI RP2040-based models)
 * SCSI Termination is DIP-switch controlled
 * Firmware upgrade simplicity; As easy as placing a file on the SD card
 * Highly configurable using a text-based ini file, ZuluSCSI.ini
@@ -29,7 +29,6 @@ ZuluSCSI™ is a SCSI computer storage emulation platform, which speaks both SCS
 * Separation of platform-specific functionality to separate directory to ease porting
 * Ported to the RP2040 and GigaDevice GD32F205 ARM Cortex processors
 * Removal of Arduino core dependency
-* Buffered log functions
 * Simultaneous transfer between SD card and SCSI bus for improved performance
 
 ### Origins and License
