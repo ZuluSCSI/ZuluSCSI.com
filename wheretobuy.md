@@ -6,7 +6,7 @@
 * [Amiga on the Lake (Oswego, NY)](https://amigaonthelake.com/rabbit-hole-computing/)
 
 #### Canada
-* [DECromancer.ca](https://decromancer.ca/scsi2sd/#zuluscsi)
+* [DECromancer.ca](https://decromancer.ca/zuluscsi)
 
 #### United Kingdom
 * [AmigaKit (Cardiff, UK)](https://amigakit.amiga.store/rabbit-hole-computing-m-51.html?aksid=en61363vm3hhjfuu1lgs0vh5f3&currency=EUR&aksid=en61363vm3hhjfuu1lgs0vh5f3)
