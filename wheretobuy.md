@@ -2,7 +2,7 @@
 
 #### United States
 * [Rabbit Hole Computing (California)](https://store.rabbitholecomputing.com/ZuluSCSI-s/120.htm) - Direct from the source
-* [SamplerZone.com (Tennesee)](https://samplerzone.com/collections/zuluscsi) - Specializes in Musical Samplers
+* [SamplerZone.com (Tennessee)](https://samplerzone.com/collections/zuluscsi) - Specializes in Musical Samplers
 * [Amiga on the Lake (Oswego, NY)](https://amigaonthelake.com/rabbit-hole-computing/)
 
 #### Canada
