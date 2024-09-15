@@ -1,7 +1,7 @@
 ##### Where to Buy ZuluSCSI
 
 #### United States
-* [Rabbit Hole Computing (California)](https://store.rabbitholecomputing.com/ZuluSCSI-s/120.htm) - Direct from the source
+* [Rabbit Hole Computing (Northern California)](https://shop.rabbitholecomputing.com/collections/zuluscsi) - Direct from the source
 * [SamplerZone.com (Tennessee)](https://samplerzone.com/collections/zuluscsi) - Specializes in Musical Samplers
 * [Amiga on the Lake (Oswego, NY)](https://amigaonthelake.com/rabbit-hole-computing/)
 
