@@ -1,5 +1,6 @@
 <img src="/assets/img/ZuluSCSI-V1.2-2023c-TopDown-QuarterSize.jpg" alt="ZuluSCSI V1.2 PCB" width="733" height="770">
 
+<a href="https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/ZuluSCSI-V1.2">ZuluSCSI V1.2 specific documentation can be found here</a>
 
 ZuluSCSI™ V1.2 is a SCSI computer storage emulation device where the device type and SCSI ID can be physically configured using DIP switches 
 
