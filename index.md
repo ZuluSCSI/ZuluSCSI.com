@@ -25,5 +25,5 @@ The open source ZuluSCSI™ firmware](https://github.com/zuluscsi/zuluscsi-firmw
 * [BlueSCSI](https://github.com/erichelgeson/BlueSCSI), which in turn is derived from [ArdSCSIno-stm32](https://github.com/ztto/ArdSCSino-stm32).
 
 #### Hardware 
-The ZuluSCSI™ Boaster , V1.0 and V1.1 hardware designs are derived from the SCSI2SD V5.1 hardware design.
+The ZuluSCSI™ Blaster, RP2040, V1.0 and V1.1 hardware designs are derived from the SCSI2SD V5.1 hardware design.
 The ZuluSCSI™ RP2040 Mini hardware designs are derived from the SCSI2SD V5.5 hardware design.
