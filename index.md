@@ -3,18 +3,19 @@
 
 ZuluSCSI® is a SCSI computer storage emulation platform, which speaks both SCSI-1 and SCSI-2. It uses file-based SCSI HDD & CD-ROM images. New for 2025, **ZuluSCSI Blaster** is Powered by Raspberry Pi, and leverages the new RP2350B, which includes additional I/O capabilities, beyond what was possible with the previous generations of our products. Hard drive and CD-ROM drive images are stored on a standard FAT32 or exFAT-formatted SD card, and are exposed as block devices to the operating system.
 
-## Features of the new ZuluSCSI Blaster
+## Features of ZuluSCSI Blaster
 
 * Based on the 80-pin Raspberry Pi RP2350B microcontroller
-* Emulates up to 7 SCSI devices simultaneously, including CD-ROM, Magneto Optical, removable (SyQuest/Jaz-style), and SCSI floppy device types
-* Speaks both SCSI-1 and SCSI-2, including 20MB/sec Fast SCSI and Ultra SCSI
+* Speaks both SCSI-1 and SCSI-2, including 20MB/sec Fast SCSI and narrow **Ultra SCSI**
 * Up to **18 megabytes/second** read speeds, 10MB/sec write speeds (on ZuluSCSI Blaster-based models)
+* Support for ROM drives of up to 15.8 **megabytes** in size. That's more than twelve 1.44MB floppy disks.
+* Emulates up to 7 SCSI devices simultaneously, including CD-ROM, Magneto Optical, removable (SyQuest/Jaz-style), and SCSI floppy device types
 * SCSI Termination is DIP-switch controlled
 * Firmware upgrade simplicity; As easy as placing a file on the SD card
 * Highly configurable using a text-based ini file, ZuluSCSI.ini
 * External activity LED pin header for attaching remote activity LED
 * Designed to be powered via SCSI termination power when provided by the host
-* Identical dimensions and mounting holes as that of SCSI2SD V5.1, V5.2, and V6, making it compatible with many existing SCSI2SD-specific mounting solutions
+* 
 
 ### Origins and License
 
