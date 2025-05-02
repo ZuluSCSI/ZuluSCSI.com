@@ -4,13 +4,13 @@ ZuluSCSI® is a SCSI computer storage emulation platform, which speaks both SCSI
 
 ## Features of ZuluSCSI Blaster
 
-* Based on the 80-pin Raspberry Pi RP2350B microcontroller
-* Speaks both SCSI-1 and SCSI-2, including 20MB/sec Fast SCSI and narrow **Ultra SCSI**
+* Support for narrow **Ultra SCSI** (20MB/sec) timing, as well as SCSI-1 and SCSI-2
 * Up to **18 megabytes/second** read speeds, 11MB/sec write speeds (on ZuluSCSI Blaster-based models)
+* USB-C connector
 * Support for ROM drives of up to 15.8 **megabytes** in size. That's more than twelve 1.44MB floppy disks.
 * Emulates up to 7 SCSI devices simultaneously, including CD-ROM, Magneto Optical, removable (SyQuest/Jaz-style), and SCSI floppy device types
 * Optional [DaynaPORT SCSI Ethernet Wi-Fi emulation](https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/WiFi-DaynaPORT-Ethernet-emulation) provided by plug-in RM2 radio module
-* Optional Red Book CD Audio emulation (using bin/cue files), via plug-in DAC board
+* Optional Red Book CD Audio emulation, via plug-in DAC board
 * Support for [SCSI Initiator Mode](https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/ZuluSCSI-Initiator-Mode), which allows the ZuluSCSI Blaster to access the contents of SCSI drives via [USB Mass Storage](https://github.com/ZuluSCSI/ZuluSCSI-firmware/wiki/USB-Mass-Storage) over USB at USB 1.1 speeds
 * Firmware upgrade simplicity; As easy as placing a file on the SD card
 * Highly configurable using a text-based ini file, ZuluSCSI.ini
