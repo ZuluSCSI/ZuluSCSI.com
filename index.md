@@ -1,4 +1,4 @@
-<img src="assets/img/ZuluSCSI-Blaster-Rev2025f-iso.jpg" alt="ZuluSCSI Blaster PCB">
+<img src="assets/img/ZuluSCSI-Blaster-Rev2026c-iso-cropped.jpg" alt="ZuluSCSI Blaster PCB">
 
 ZuluSCSI® is a SCSI computer storage emulation platform, which speaks both SCSI-1 and SCSI-2. It uses file-based SCSI HDD & CD-ROM images. New for 2025, **ZuluSCSI Blaster** leverages the new RP2350B, which includes additional I/O capabilities, including optional Red Book CD Audio playback and Wi-Fi Ethernet for compatible classic Macintosh and Amiga computers. Hard drive and CD-ROM drive images are stored on a standard FAT32 or exFAT-formatted SD card, and are exposed as block devices to the operating system.
 
