@@ -8,6 +8,10 @@
 #### Canada
 * [DECromancer.ca](https://decromancer.ca/zuluscsi)
 
+#### Japan (日本)
+* [Retro Mirai](https://shop.retromirai.jp) - 日本国内の正規販売代理店
+  
+
 #### United Kingdom
 * [AmigaKit (Cardiff, UK)](https://amigakit.amiga.store/rabbit-hole-computing-m-51.html?aksid=en61363vm3hhjfuu1lgs0vh5f3&currency=EUR&aksid=en61363vm3hhjfuu1lgs0vh5f3)
 
